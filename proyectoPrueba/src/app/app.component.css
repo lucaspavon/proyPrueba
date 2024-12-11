@@ -1,0 +1,41 @@
+.cuerpoApp {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la pantalla */
+}
+
+.navbar {
+    background-color: black;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: #adadad;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.ancords {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.footer {
+    background-color: black;
+    min-height: 5vh;
+}
+
+.aplicacion {
+    height: 90vh;
+    background-color: #fafafa;
+}

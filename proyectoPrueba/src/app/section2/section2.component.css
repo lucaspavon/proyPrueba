@@ -1,0 +1,41 @@
+.contenedorSection2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(137, 253, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.tituloSignal{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(80, 204, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.tituloObservable{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(230, 124, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.cardPoke{
+    border-radius: 6px;
+    width: 250px;
+    height: 75px;
+    background-color: aquamarine;
+    border: 3px solid gray;
+}

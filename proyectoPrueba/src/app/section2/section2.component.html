@@ -1,0 +1,18 @@
+<div class="contenedorSection2">
+    <p>Componente 2</p>
+    <div class="tituloSignal">
+        <p>{{tituloObservableCompo2}}</p>
+    </div>
+    <div class="tituloObservable">
+        <p>{{tituloObservableCompo}}</p>
+    </div>
+</div>
+
+
+<button (click)="traerPokes()"> TRAER POKES</button>
+
+@for (poke of pokes; track $index) {
+    <div class="cardPoke">
+        <p>{{poke.name}}</p>
+    </div>
+}

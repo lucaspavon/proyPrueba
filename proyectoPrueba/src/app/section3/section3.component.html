@@ -1,0 +1,7 @@
+<div class="contenedorSection3">
+    <div class="contenedorPadre">
+        <p>{{miTitulo}}</p>
+        <button (click)="cambiarNombre()">Cambiar nombre al hijo</button>
+        <app-algun-componente [titulo]="tituloHijo" (callBackPadre)="cambiarTituloAlPadre($event)"></app-algun-componente>
+    </div>
+</div>

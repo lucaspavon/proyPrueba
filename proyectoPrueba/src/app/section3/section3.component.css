@@ -1,0 +1,24 @@
+.contenedorSection3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(152, 152, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contenedorPadre{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgb(215, 152, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
